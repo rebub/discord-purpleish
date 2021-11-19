@@ -1,0 +1,91 @@
+/**
+* @name reub
+* @author reub#8545
+* @description Purpleish Theme
+* @invite 7zF3ncMPxz
+* @version 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body div,
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
+
+:root {
+    --background-primary: rgb(36, 33, 44);
+    --background-secondary: rgb(36, 33, 44);
+    --background-secondary-alt: rgb(36, 33, 44);
+    --background-tertiary: rgb(36, 33, 44);
+
+    --background-floating: rgb(50, 46, 59);
+    --channeltextarea-background: rgb(50, 46, 59);
+
+    --background-modifier-hover: rgb(50, 46, 59);
+    --background-modifier-selected: rgb(50, 46, 59);
+
+    --scrollbar-thin-thumb: rgb(50, 46, 59);
+    --scrollbar-auto-thumb: rgb(50, 46, 59);
+    --scrollbar-auto-track: rgb(36, 33, 44);
+
+}
+
+::placeholder,
+body,
+button,
+input,
+select,
+textarea,
+.fontDisplay-1dagSA,
+.header-2SF4Nh {
+    font-family: 'Inconsolata', monospace;
+}
+
+.theme-dark .container-1D34oG {
+    background-color: rgb(36, 33, 44);
+}
+
+.theme-dark .outer-1AjyKL.active-1xchHY,
+.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgb(50, 46, 59);
+}
+
+.theme-dark .divider-3C88Um,
+.peopleListItem-2nzedh,
+.activityPanel-28dQGo,
+.container-1giJp5,
+.scroller-2ZPeAD,
+.divider-JfaTT5,
+.wrapper-3D2qGf {
+    border: none;
+}
+
+.header-2V-4Sw,
+.headerBar-1YYOfi:before,
+.libraryHeader-3g95kE:before,
+.tabBody-3YRQ8W:before,
+.content-yTz4x3:before,
+.searchBar-6Kv8R2 {
+    box-shadow: none;
+}
+
+.embedFull-2tM8-- {
+    background-color: rgb(50, 46, 59);
+}
+
+.circleIconButton-hZmpE8 {
+    color: white;
+}
+
+.circleIconButton-hZmpE8:hover {
+    background-color: rgb(50, 46, 59);
+}
+
+.wrapper-2qzCYF.minimum-28Z35l {
+    border-radius: 8px 0 8px 9px;
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl {
+    background: #463867;
+}
