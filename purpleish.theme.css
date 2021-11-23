@@ -29,6 +29,17 @@ h1 {
     --scrollbar-auto-thumb: rgb(50, 46, 59);
     --scrollbar-auto-track: rgb(36, 33, 44);
 
+    --info-warning-foreground: #514077;
+    --background-mentioned: #2c2441;
+
+    --brand-experiment: #514077;
+
+    --brand-experiment-560: #463867;
+    --brand-experiment-600: #463867;
+
+    --switch-color: #514077;
+
+    --divider-color: #8d72cc;
 }
 
 ::placeholder,
@@ -83,9 +94,96 @@ textarea,
 }
 
 .wrapper-2qzCYF.minimum-28Z35l {
-    border-radius: 8px 0 8px 9px;
+    border-radius: 8px 0 8px 9px !important;
 }
 
 .colorable-1bkp8v.primaryDark-3mSFDl {
     background: #463867;
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+
+.clickable-1JJAn8:active .layout-2DM8Md {
+    background-color: var(--background-modifier-selected);
+}
+
+
+
+.wordmarkWindows-1v0lYD.wordmark-2iDDfm {
+    display: none;
+}
+
+.winButtonMinMax-PBQ2gm.winButton-iRh8-Z.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs {
+    display: none;
+}
+
+.root-217Brm,
+.root-217Brm.idle-1j3olu {
+    box-shadow: none;
+    background-color: rgb(36, 33, 44);
+}
+
+.clickable-25tGDB .header-2V-4Sw,
+.selected-31Nl7x .header-2V-4Sw {
+    border-radius: 8px;
+}
+
+.expandedFolderIconWrapper-3fmTfW svg {
+    color: #8d72cc !important;
+}
+
+.folderIconWrapper-1Ml_1q {
+    background-color: #322e3b !important;
+}
+
+.layout-2DM8Md {
+    border-radius: 8px;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--background-modifier-hover);
+}
+
+
+
+/** BANNER **/
+
+.popoutBannerPremium-1n96gg,
+.popoutBanner-19WKGg {
+    height: 160px;
+}
+
+.avatarPositionNormal-aZjAsn {
+    top: 20%;
+}
+
+.input-cIJ7To {
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.input-cIJ7To:hover {
+    border-color: transparent;
+}
+
+.divider-ewBQKj {
+    display: none;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica {
+    transition: all .3s ease;
+    border-radius: 0 8px 8px 0;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica:hover {
+    background-color: #3e315a;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica:hover {
+    border-radius: 8px;
 }
